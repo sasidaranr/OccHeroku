@@ -8,7 +8,7 @@ app.get('/', function (req, res) {
 });
 
 app.post('/', function(req, res) {
-    console.log("request---------------------------------  ",req)
+    console.log("request---------------------------------  ",req.body);
       res.send('Hello World! POST');
 });
 
